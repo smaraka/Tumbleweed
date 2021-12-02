@@ -1,0 +1,15 @@
+{
+	"events": [
+		{
+			"character": "character-1638486343.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "If you talked to my father, I hope you didn’t pay that much attention to his intimidation tactics. This isn’t a ‘you’re with us or against us’ type of situation. We’re just tired and sick of the abuse the governor has put us through. Sentenzas are not the first family to try and invade this town with their legal claims. I’ve been in conversation with local authorities for years, they won’t take our claim as legitimate. We’ve tried and tried to get them to understand the mines are our birthrights, but they wouldn’t listen. Weaker families came before them, and they left thanks to my father’s guerilla tactics. I fear the Sentenzas might actually take us out though, their resources far exceed any other enemy we ever faced. We can’t offer you much… but we need all the help we can get."
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.3",
+		"file": "timeline-1638487746.json",
+		"name": "Ruby"
+	}
+}

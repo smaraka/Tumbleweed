@@ -1,0 +1,38 @@
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://Town/Cardino.gd" type="Script" id=1]
+[ext_resource path="res://Assets/exclamation_spritesheet_01.png" type="Texture" id=2]
+[ext_resource path="res://Assets/Basic_Red_Sprite.png" type="Texture" id=3]
+
+[sub_resource type="CircleShape2D" id=1]
+radius = 100.0
+
+[node name="NPC" type="Area2D" groups=[
+"npc",
+]]
+position = Vector2( 80, 80 )
+scale = Vector2( 0.25, 0.25 )
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Sprite" type="Sprite" parent="."]
+scale = Vector2( 2, 2 )
+texture = ExtResource( 3 )
+centered = false
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." groups=[
+"npc",
+]]
+position = Vector2( 32, 32 )
+shape = SubResource( 1 )
+
+[node name="QuestionMark" type="Sprite" parent="."]
+texture = ExtResource( 2 )
+centered = false
+offset = Vector2( 24, -40 )
+hframes = 7
+
+[connection signal="body_entered" from="." to="." method="_on_NPC_body_entered"]
+[connection signal="body_exited" from="." to="." method="_on_NPC_body_exited"]
