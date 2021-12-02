@@ -1,0 +1,88 @@
+{
+	"files": [
+
+	],
+	"folders": {
+		"Characters": {
+			"files": [
+				"character-1638486367.json"
+			],
+			"folders": {
+				"Rojo": {
+					"files": [
+						"character-1638486275.json",
+						"character-1638486326.json",
+						"character-1638486343.json"
+					],
+					"folders": {
+
+					},
+					"metadata": {
+						"color": null,
+						"folded": false
+					}
+				},
+				"Sentenza": {
+					"files": [
+						"character-1638435749.json",
+						"character-1638486142.json",
+						"character-1638486211.json"
+					],
+					"folders": {
+
+					},
+					"metadata": {
+						"color": null,
+						"folded": false
+					}
+				}
+			},
+			"metadata": {
+				"color": null,
+				"folded": false
+			}
+		},
+		"Definitions": {
+			"files": [
+
+			],
+			"folders": {
+
+			},
+			"metadata": {
+				"color": null,
+				"folded": false
+			}
+		},
+		"Themes": {
+			"files": [
+				"default-theme.cfg"
+			],
+			"folders": {
+
+			},
+			"metadata": {
+				"color": null,
+				"folded": false
+			}
+		},
+		"Timelines": {
+			"files": [
+				"timeline-1638437213.json",
+				"timeline-1638486575.json",
+				"timeline-1638486635.json",
+				"timeline-1638487377.json",
+				"timeline-1638487725.json",
+				"timeline-1638487746.json",
+				"timeline-1638487778.json"
+			],
+			"folders": {
+
+			},
+			"metadata": {
+				"color": null,
+				"folded": false
+			}
+		}
+	}
+}

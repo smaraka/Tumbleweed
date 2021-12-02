@@ -1,0 +1,24 @@
+{
+	"color": "#ffe54f4f",
+	"description": "",
+	"display_name": "",
+	"display_name_bool": false,
+	"id": "character-1638486275.json",
+	"mirror_portraits": false,
+	"name": "Cardino Rojo",
+	"nickname": "",
+	"nickname_bool": false,
+	"offset_x": 0,
+	"offset_y": 0,
+	"portraits": [
+		{
+			"name": "Default",
+			"path": ""
+		},
+		{
+			"name": "Basic_Red_Sprite",
+			"path": "res://Assets/Basic_Red_Sprite.png"
+		}
+	],
+	"scale": 100
+}

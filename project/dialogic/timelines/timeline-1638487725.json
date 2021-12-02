@@ -1,0 +1,15 @@
+{
+	"events": [
+		{
+			"character": "character-1638486275.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Hey there stranger, I reckon you know how to use that pistol on your hip. Well, if you are looking for some quick and easy money, you’re in the right place. See those high and mighty pompous suckers over there? Those are the government dogs Sentenzas. They think some piece of paper makes the Tumbleweed mines theirs. Well, my blood says otherwise. The Rojos had the control over the mine for decades. My father and my grandfather before him. And you best believe I won’t be the one who ends the streak. Now the real question is if you’re with me or against me. ‘Cause there is only one answer where I’ll let you live…"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.3",
+		"file": "timeline-1638487725.json",
+		"name": "Cardino"
+	}
+}

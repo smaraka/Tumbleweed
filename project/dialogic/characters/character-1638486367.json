@@ -1,0 +1,20 @@
+{
+	"color": "#ff0cbf0f",
+	"description": "",
+	"display_name": "",
+	"display_name_bool": false,
+	"id": "character-1638486367.json",
+	"mirror_portraits": false,
+	"name": "Bartender",
+	"nickname": "",
+	"nickname_bool": false,
+	"offset_x": 0,
+	"offset_y": 0,
+	"portraits": [
+		{
+			"name": "Default",
+			"path": ""
+		}
+	],
+	"scale": 100
+}
