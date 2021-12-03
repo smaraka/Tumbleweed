@@ -31,6 +31,8 @@ Assets, or resources used:
 - [Roguelike Indoors by Kenney.nl](https://kenney.nl/assets/roguelike-indoors)
 - [Roguelike/RPG Pack by Kenney.nl](https://kenney.nl/assets/roguelike-rpg-pack)
 - [Indoor Footsteps by dkiller2204](https://freesound.org/people/dkiller2204/sounds/366111/)
+- [Rye Typeface by Sorkin Type Co.](https://www.fontsc.com/font/rye)
+- [Western Saloon by upklyak](https://www.freepik.com/free-vector/cowboy-saloon-western-retro-bar-empty-interior_7743412.htm#page=1&query=old%20west&position=19&from_view=search)
 
 ## Future Development
 None
