@@ -29,10 +29,12 @@ position = Vector2( 32, 32 )
 shape = SubResource( 1 )
 
 [node name="QuestionMark" type="Sprite" parent="."]
+position = Vector2( 5, 0 )
 texture = ExtResource( 2 )
 centered = false
 offset = Vector2( 24, -40 )
 hframes = 7
+frame = 2
 
 [connection signal="body_entered" from="." to="." method="_on_NPC_body_entered"]
 [connection signal="body_exited" from="." to="." method="_on_NPC_body_exited"]

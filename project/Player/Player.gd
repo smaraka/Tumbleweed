@@ -22,7 +22,6 @@ func _physics_process(delta):
 	pause()
 	if ray.is_colliding():
 		var target = ray.get_collider()
-		kill(target)
 	if is_move == false:
 		player_input()
 	elif input_direction != Vector2.ZERO:
@@ -50,12 +49,7 @@ func pause():
 	if Input.is_action_pressed("pause"):
 		get_tree().change_scene("res://Menu/PMenu.tscn")
 
-func kill(body):
-	if Input.is_action_pressed("Kill"):
-		if body.is_in_group("Red"):
-			get_tree().change_scene("res://Menu/Win.tscn")
-		elif body.is_in_group("Blue"):
-			get_tree().change_scene("res://Menu/Lose.tscn")
+
 
 func move(delta):
 	move_amt += w_speed * delta
