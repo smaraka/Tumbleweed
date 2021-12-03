@@ -7,7 +7,8 @@ The phrase "Pick Your Poison" immediately brought the images of alcohol and the 
 ## Game Play
 Talk to the members of the Rojos and Sentenzas gang and decide which one to aide in taking control of the town of Tumbleweed.
 
-Gameplay instructions.
+Gameplay instructions:
+Press E to talk to a gang member and Q to kill them. Talk to all gang members in the bar, listening to their stories. Once you decide which gang you wish to side with, just kill a member of the opposing gang. The game has two endings based on your decision.
 
 ## Impediments
 Struggles or surprises you encountered during the development of the game
