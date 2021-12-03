@@ -2,7 +2,7 @@
 
 [ext_resource path="res://Town/Target.gd" type="Script" id=1]
 [ext_resource path="res://Assets/exclamation_spritesheet_01.png" type="Texture" id=2]
-[ext_resource path="res://Assets/Basic_Red_Sprite.png" type="Texture" id=3]
+[ext_resource path="res://Assets/Rusty_Sprite.png" type="Texture" id=3]
 
 [sub_resource type="CircleShape2D" id=1]
 radius = 100.0
