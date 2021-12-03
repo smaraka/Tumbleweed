@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Sprite_Sheet.png-57c454cb36fff371739d32efb8a05dda.stex"
+path="res://.import/Sapphire_Sprite.png-d325b807c72302239923c1be84285732.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Sprite_Sheet.png"
-dest_files=[ "res://.import/Sprite_Sheet.png-57c454cb36fff371739d32efb8a05dda.stex" ]
+source_file="res://Assets/Sapphire_Sprite.png"
+dest_files=[ "res://.import/Sapphire_Sprite.png-d325b807c72302239923c1be84285732.stex" ]
 
 [params]
 
