@@ -36,7 +36,7 @@ Assets, or resources used:
 None
 
 # Created by: The Tumbleweeds
-Michael Veal; Outline, Mock-ups, Sprites
-Kuzey Can Bektas; Plot, Dialogue 
-Suraj Marakani; Code implimentation 
-Jason Williams; Music and found/edited SFX
+- Michael Veal; Outline, Mock-ups, Sprites
+- Kuzey Can Bektas; Plot, Dialogue 
+- Suraj Marakani; Code implimentation and map design 
+- Jason Williams; Music and found/edited SFX
