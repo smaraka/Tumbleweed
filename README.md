@@ -25,6 +25,7 @@ Features:
 - Single top down map of the Tumbleweed Saloon
 - Player can move around the map freely and talk to NPCs
 - Player can choose which gang to side with
+- Player can kill gang members
 
 ## References
 Assets, or resources used:
