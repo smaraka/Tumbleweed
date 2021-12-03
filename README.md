@@ -34,7 +34,7 @@ Assets, or resources used:
 - [Indoor Footsteps by dkiller2204](https://freesound.org/people/dkiller2204/sounds/366111/)
 - [Rye Typeface by Sorkin Type Co.](https://www.fontsc.com/font/rye)
 - [Western Saloon by upklyak](https://www.freepik.com/free-vector/cowboy-saloon-western-retro-bar-empty-interior_7743412.htm#page=1&query=old%20west&position=19&from_view=search)
-- [Dialogic Addon by Emillio Coppola](https://github.com/coppolaemilio/dialogic)
+- [Dialogic Addon by Emilio Coppola](https://github.com/coppolaemilio/dialogic)
 
 ## Future Development
 None
