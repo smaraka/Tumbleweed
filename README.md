@@ -25,17 +25,18 @@ Featues:
 - Player can move around the map freely and talk to NPCs
 - Player can choose which gang to side with
 
+## References
 Assets, or resources used:
 - [Roguelike Characters by Kenney.nl](https://kenney.nl/assets/roguelike-characters)
 - [Roguelike Indoors by Kenney.nl](https://kenney.nl/assets/roguelike-indoors)
 - [Roguelike/RPG Pack by Kenney.nl](https://kenney.nl/assets/roguelike-rpg-pack)
 - [Indoor Footsteps by dkiller2204](https://freesound.org/people/dkiller2204/sounds/366111/)
 
-## References
-Sprites and outlines/mock-ups by Michael Veal
-
 ## Future Development
 None
 
 # Created by: The Tumbleweeds
-List of group members (and contributions)
+Michael Veal; Outline, Mock-ups, Sprites
+Kuzey Can Bektas; Plot, Dialogue 
+Suraj Marakani; Code implimentation 
+Jason Williams; Music and found/edited SFX
