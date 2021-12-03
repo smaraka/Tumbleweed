@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/Tumbleweeds.wav-60e2c8a92787c4ba526a7713c2a9ba7a.sample"
+
+[deps]
+
+source_file="res://Assets/Tumbleweeds.wav"
+dest_files=[ "res://.import/Tumbleweeds.wav-60e2c8a92787c4ba526a7713c2a9ba7a.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

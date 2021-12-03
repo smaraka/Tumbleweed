@@ -32,7 +32,6 @@ text = "Welcome to Tale of Tumbleweed"
 align = 1
 valign = 1
 uppercase = true
-percent_visible = -0.04
 
 [node name="VBoxContainer" type="VBoxContainer" parent="."]
 anchor_top = 1.0
