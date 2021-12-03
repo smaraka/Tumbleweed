@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/Tumbleweed_Menu.wav-cee49c9a3898235090a8ce9590bfa15b.sample"
+
+[deps]
+
+source_file="res://Assets/Tumbleweed_Menu.wav"
+dest_files=[ "res://.import/Tumbleweed_Menu.wav-cee49c9a3898235090a8ce9590bfa15b.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=true
+compress/mode=0
