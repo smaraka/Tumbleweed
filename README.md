@@ -39,6 +39,6 @@ None
 
 # Created by: The Tumbleweeds
 - Michael Veal; Outline, Mock-ups, Sprites
-- Kuzey Can Bektas; Plot, Dialogue 
+- Kuzey Can Bektas; Plot, Dialogue, Writing
 - Suraj Marakani; Code implimentation and map design 
 - Jason Williams; Music and found/edited SFX
