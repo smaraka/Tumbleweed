@@ -1,8 +1,18 @@
-[gd_scene load_steps=4 format=2]
+[gd_scene load_steps=8 format=2]
 
 [ext_resource path="res://Menu/Win.gd" type="Script" id=1]
 [ext_resource path="res://Assets/cowboy-saloon-western-retro-bar-empty-interior_107791-1778.jpg" type="Texture" id=2]
 [ext_resource path="res://Assets/Tumbleweed_Menu.wav" type="AudioStream" id=3]
+[ext_resource path="res://Assets/Rye-Regular.ttf" type="DynamicFontData" id=4]
+
+[sub_resource type="DynamicFont" id=1]
+font_data = ExtResource( 4 )
+
+[sub_resource type="DynamicFont" id=2]
+font_data = ExtResource( 4 )
+
+[sub_resource type="DynamicFont" id=3]
+font_data = ExtResource( 4 )
 
 [node name="RedWin" type="Control"]
 anchor_right = 1.0
@@ -29,6 +39,7 @@ __meta__ = {
 margin_left = 10.0
 margin_right = 1012.0
 margin_bottom = 374.0
+custom_fonts/font = SubResource( 1 )
 text = "With your help Rojos were able to deflect the attacks Sentenzas sent their way while continuing their attack on the Sentenza properties. The damage that you caused to the Sentenza operation caused them to slowly withdraw form Tumbleweed and return back to the city. You read in the papers that their family wealth kept decaying afterwards, and they lost their high society status soon after their grand failure at the hands of the Rojo gang. You felt proud for a bit, but then another family came. After that another, and another. The government was relentless, the mine was being forced out of its rightful owners hands, and there was nothing you could do about this. You wondered if your actions ever mattered. If it would have been a better choice to side with the money, and at least live as a rich man instead of some guerilla fighter, stuck at a war for some dead cause."
 align = 1
 valign = 1
@@ -51,13 +62,15 @@ __meta__ = {
 
 [node name="Start" type="Button" parent="VBoxContainer"]
 margin_right = 109.0
-margin_bottom = 20.0
+margin_bottom = 27.0
+custom_fonts/font = SubResource( 2 )
 text = "Restart"
 
 [node name="Quit" type="Button" parent="VBoxContainer"]
-margin_top = 24.0
+margin_top = 31.0
 margin_right = 109.0
-margin_bottom = 44.0
+margin_bottom = 58.0
+custom_fonts/font = SubResource( 3 )
 text = "Quit"
 
 [node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
