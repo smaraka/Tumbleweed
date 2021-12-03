@@ -1,6 +1,18 @@
-[gd_scene load_steps=2 format=2]
+[gd_scene load_steps=8 format=2]
 
 [ext_resource path="res://Menu/Win.gd" type="Script" id=1]
+[ext_resource path="res://Assets/cowboy-saloon-western-retro-bar-empty-interior_107791-1778.jpg" type="Texture" id=2]
+[ext_resource path="res://Assets/Tumbleweed_Menu.wav" type="AudioStream" id=3]
+[ext_resource path="res://Assets/Rye-Regular.ttf" type="DynamicFontData" id=4]
+
+[sub_resource type="DynamicFont" id=1]
+font_data = ExtResource( 4 )
+
+[sub_resource type="DynamicFont" id=2]
+font_data = ExtResource( 4 )
+
+[sub_resource type="DynamicFont" id=3]
+font_data = ExtResource( 4 )
 
 [node name="Win" type="Control"]
 anchor_right = 1.0
@@ -10,10 +22,28 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="TextEdit" type="TextEdit" parent="."]
-margin_right = 320.0
-margin_bottom = 192.0
-text = "You have Won!"
+[node name="Sprite" type="Sprite" parent="."]
+position = Vector2( 515.33, 301.933 )
+scale = Vector2( 1.63101, 1.91387 )
+texture = ExtResource( 2 )
+
+[node name="ColorRect" type="ColorRect" parent="."]
+margin_right = 1025.0
+margin_bottom = 328.0
+color = Color( 0, 0, 0, 0.470588 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Label" type="Label" parent="."]
+margin_left = 10.0
+margin_right = 1012.0
+margin_bottom = 374.0
+custom_fonts/font = SubResource( 1 )
+text = "You sided with the Sentenzas, and helped them slowly rid Tumbleweed off the Rojo family. You witnessed first hand the cruelty Azure Sentenza was capable of, as she made you behead the great Cardino Rojo, put it on a stick and display it at the entrance of the town. The rest of the family fled after seing their father fall at the hands of the heartless industrialists. You sticked around with the Sentenzas as a bodyguard, and watched them slowly transform this small town into a mining complex, abusing and draining the life out of the people that lived in it. You wondered to yourself if you made the right choice, if the Rojos were the better people, but you also enjoyed a great wealth, and got to drink the finest champagne. "
+align = 1
+valign = 1
+autowrap = true
 __meta__ = {
 "_edit_use_anchors_": false
 }
@@ -21,25 +51,31 @@ __meta__ = {
 [node name="VBoxContainer" type="VBoxContainer" parent="."]
 anchor_top = 1.0
 anchor_bottom = 1.0
-margin_left = 20.0
-margin_top = -50.0
-margin_right = 61.0
-margin_bottom = -6.0
-rect_scale = Vector2( 0.5, 0.5 )
+margin_left = 400.0
+margin_top = -200.0
+margin_right = 509.0
+margin_bottom = -156.0
+rect_scale = Vector2( 2, 2 )
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
 [node name="Start" type="Button" parent="VBoxContainer"]
-margin_right = 57.0
-margin_bottom = 20.0
+margin_right = 109.0
+margin_bottom = 27.0
+custom_fonts/font = SubResource( 2 )
 text = "Restart"
 
 [node name="Quit" type="Button" parent="VBoxContainer"]
-margin_top = 24.0
-margin_right = 57.0
-margin_bottom = 44.0
+margin_top = 31.0
+margin_right = 109.0
+margin_bottom = 58.0
+custom_fonts/font = SubResource( 3 )
 text = "Quit"
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 3 )
+autoplay = true
 
 [connection signal="pressed" from="VBoxContainer/Start" to="." method="_on_Start_pressed"]
 [connection signal="pressed" from="VBoxContainer/Quit" to="." method="_on_Quit_pressed"]

@@ -8,10 +8,13 @@
 radius = 100.0
 
 [node name="NPC" type="Area2D" groups=[
+"Blue",
 "npc",
 ]]
 position = Vector2( 80, 80 )
 scale = Vector2( 0.25, 0.25 )
+collision_layer = 4
+collision_mask = 2
 script = ExtResource( 3 )
 __meta__ = {
 "_edit_group_": true

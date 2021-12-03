@@ -52,9 +52,9 @@ func pause():
 
 func kill(body):
 	if Input.is_action_pressed("Kill"):
-		if body.is_in_group("target"):
+		if body.is_in_group("Red"):
 			get_tree().change_scene("res://Menu/Win.tscn")
-		else:
+		elif body.is_in_group("Blue"):
 			get_tree().change_scene("res://Menu/Lose.tscn")
 
 func move(delta):
