@@ -16,6 +16,7 @@ Struggles or surprises you encountered during the development of the game
 - Sizing of the sprite sheet proved to be finicky.
 - Coding the interactions between PC and NPC and switching to dialogue created a series of unexpected bugs.
 - Then of course the limited time frame that caused us to cut some ideas like having detailed NPC portraits, a second location, dialgoue trees, etc.
+- The tweaking of the music was somwhat difficult as the guitar strums couldn't be too fast or too slow and only had about 20bpm where it would sound fine.
 
 ## Implementation
 Featues:
