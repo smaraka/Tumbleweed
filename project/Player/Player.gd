@@ -48,7 +48,7 @@ func player_input():
 
 func pause():
 	if Input.is_action_pressed("pause"):
-		get_tree().change_scene("res://Menu/Pause.tscn")
+		get_tree().change_scene("res://Menu/PMenu.tscn")
 
 func kill(body):
 	if Input.is_action_pressed("Kill"):

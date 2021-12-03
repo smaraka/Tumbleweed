@@ -5,10 +5,6 @@
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "Another filthy mercenary huh… Well, lucky for you we could use someone of your skillset. You see those savage Rojos standing over there are a big problem for us. The pesky rats have set their eyes upon the coal mine given to us by the governor of this state. The mine is ours to exploit and we have the documentation to prove it. Help us eradicate them and we will reward you handsomely. Unlike those Rojos, you can trust the Sentenzas to uphold their end of a bargain."
-		},
-		{
-			"event_id": "dialogic_023",
-			"wait_seconds": 2
 		}
 	],
 	"metadata": {
